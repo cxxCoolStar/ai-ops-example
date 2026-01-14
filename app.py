@@ -13,7 +13,11 @@ logging.basicConfig(
 
 def process_data(data):
     logging.debug(f"正在处理数据: {data}")
-    return int(data)
+    try:
+        return int(data)
+    except (ValueError, TypeError) as e:
+        logging.warning(f"无法将数据 '{data}' 转换为整数: {e}")
+        return None
 
 
 def main():
@@ -23,18 +27,16 @@ def main():
     time.sleep(1)
     logging.info("初始化组件成功")
 
-    try:
-        items = ["100", "200", "abc", "300"]
-        for item in items:
-            logging.info(f"开始处理项目: {item}")
-            time.sleep(1)
-            result = process_data(item)
+    items = ["100", "200", "abc", "300"]
+    for item in items:
+        logging.info(f"开始处理项目: {item}")
+        time.sleep(1)
+        result = process_data(item)
+        if result is not None:
             logging.info(f"项目处理成功: {result}")
-    except Exception as e:
-        logging.error("处理过程中发生严重错误", exc_info=True)
-        print(f"发生错误: {e}")
+        else:
+            logging.warning(f"项目处理失败: {item}")
 
 
 if __name__ == "__main__":
     main()
-
