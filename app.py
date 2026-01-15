@@ -53,7 +53,10 @@ def build_logger(log_path, service_name, environment, level="INFO"):
 
 
 def parse_int(value):
-    return int(value)
+    try:
+        return int(value)
+    except (ValueError, TypeError) as e:
+        raise ValueError(f"Cannot convert '{value}' to int: {e}") from e
 
 
 def divide(a, b):
