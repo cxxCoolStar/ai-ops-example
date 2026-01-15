@@ -53,7 +53,12 @@ def build_logger(log_path, service_name, environment, level="INFO"):
 
 
 def parse_int(value):
-    return int(value)
+    if not value or not value.strip():
+        raise ValueError("value cannot be empty")
+    try:
+        return int(value)
+    except ValueError:
+        raise ValueError(f"invalid integer value: {value!r}")
 
 
 def divide(a, b):
