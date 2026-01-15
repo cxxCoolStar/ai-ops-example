@@ -17,3 +17,194 @@ Traceback (most recent call last):
     return int(data)
            ^^^^^^^^^
 ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 14:23:21 INFO: 服务已启动 - v1.0.0
+2026-01-14 14:23:22 INFO: 初始化组件成功
+2026-01-14 14:23:22 INFO: 开始处理项目: 100
+2026-01-14 14:23:23 DEBUG: 正在处理数据: 100
+2026-01-14 14:23:23 INFO: 项目处理成功: 100
+2026-01-14 14:23:23 INFO: 开始处理项目: 200
+2026-01-14 14:23:24 DEBUG: 正在处理数据: 200
+2026-01-14 14:23:24 INFO: 项目处理成功: 200
+2026-01-14 14:23:24 INFO: 开始处理项目: abc
+2026-01-14 14:23:25 DEBUG: 正在处理数据: abc
+2026-01-14 14:23:25 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 14:26:37 INFO: 服务已启动 - v1.0.0
+2026-01-14 14:26:38 INFO: 初始化组件成功
+2026-01-14 14:26:38 INFO: 开始处理项目: 100
+2026-01-14 14:26:39 DEBUG: 正在处理数据: 100
+2026-01-14 14:26:39 INFO: 项目处理成功: 100
+2026-01-14 14:26:39 INFO: 开始处理项目: 200
+2026-01-14 14:26:40 DEBUG: 正在处理数据: 200
+2026-01-14 14:26:40 INFO: 项目处理成功: 200
+2026-01-14 14:26:40 INFO: 开始处理项目: abc
+2026-01-14 14:26:41 DEBUG: 正在处理数据: abc
+2026-01-14 14:26:41 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 14:28:45 INFO: 服务已启动 - v1.0.0
+2026-01-14 14:28:46 INFO: 初始化组件成功
+2026-01-14 14:28:46 INFO: 开始处理项目: 100
+2026-01-14 14:28:47 DEBUG: 正在处理数据: 100
+2026-01-14 14:28:47 INFO: 项目处理成功: 100
+2026-01-14 14:28:47 INFO: 开始处理项目: 200
+2026-01-14 14:28:48 DEBUG: 正在处理数据: 200
+2026-01-14 14:28:48 INFO: 项目处理成功: 200
+2026-01-14 14:28:48 INFO: 开始处理项目: abc
+2026-01-14 14:28:49 DEBUG: 正在处理数据: abc
+2026-01-14 14:28:49 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 14:33:58 INFO: 服务已启动 - v1.0.0
+2026-01-14 14:33:59 INFO: 初始化组件成功
+2026-01-14 14:33:59 INFO: 开始处理项目: 100
+2026-01-14 14:34:00 DEBUG: 正在处理数据: 100
+2026-01-14 14:34:00 INFO: 项目处理成功: 100
+2026-01-14 14:34:00 INFO: 开始处理项目: 200
+2026-01-14 14:34:01 DEBUG: 正在处理数据: 200
+2026-01-14 14:34:01 INFO: 项目处理成功: 200
+2026-01-14 14:34:01 INFO: 开始处理项目: abc
+2026-01-14 14:34:02 DEBUG: 正在处理数据: abc
+2026-01-14 14:34:02 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 14:37:57 INFO: 服务已启动 - v1.0.0
+2026-01-14 14:37:58 INFO: 初始化组件成功
+2026-01-14 14:37:58 INFO: 开始处理项目: 100
+2026-01-14 14:37:59 DEBUG: 正在处理数据: 100
+2026-01-14 14:37:59 INFO: 项目处理成功: 100
+2026-01-14 14:37:59 INFO: 开始处理项目: 200
+2026-01-14 14:38:00 DEBUG: 正在处理数据: 200
+2026-01-14 14:38:00 INFO: 项目处理成功: 200
+2026-01-14 14:38:00 INFO: 开始处理项目: abc
+2026-01-14 14:38:01 DEBUG: 正在处理数据: abc
+2026-01-14 14:38:01 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 15:41:38 INFO: 服务已启动 - v1.0.0
+2026-01-14 15:41:39 INFO: 初始化组件成功
+2026-01-14 15:41:39 INFO: 开始处理项目: 100
+2026-01-14 15:41:40 DEBUG: 正在处理数据: 100
+2026-01-14 15:41:40 INFO: 项目处理成功: 100
+2026-01-14 15:41:40 INFO: 开始处理项目: 200
+2026-01-14 15:41:41 DEBUG: 正在处理数据: 200
+2026-01-14 15:41:41 INFO: 项目处理成功: 200
+2026-01-14 15:41:41 INFO: 开始处理项目: abc
+2026-01-14 15:41:42 DEBUG: 正在处理数据: abc
+2026-01-14 15:41:42 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 15:51:55 INFO: 服务已启动 - v1.0.0
+2026-01-14 15:51:56 INFO: 初始化组件成功
+2026-01-14 15:51:56 INFO: 开始处理项目: 100
+2026-01-14 15:51:57 DEBUG: 正在处理数据: 100
+2026-01-14 15:51:57 INFO: 项目处理成功: 100
+2026-01-14 15:51:57 INFO: 开始处理项目: 200
+2026-01-14 15:51:58 DEBUG: 正在处理数据: 200
+2026-01-14 15:51:58 INFO: 项目处理成功: 200
+2026-01-14 15:51:58 INFO: 开始处理项目: abc
+2026-01-14 15:51:59 DEBUG: 正在处理数据: abc
+2026-01-14 15:51:59 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 17:41:06 INFO: 服务已启动 - v1.0.0
+2026-01-14 17:41:07 INFO: 初始化组件成功
+2026-01-14 17:41:07 INFO: 开始处理项目: 100
+2026-01-14 17:41:08 DEBUG: 正在处理数据: 100
+2026-01-14 17:41:08 INFO: 项目处理成功: 100
+2026-01-14 17:41:08 INFO: 开始处理项目: 200
+2026-01-14 17:41:09 DEBUG: 正在处理数据: 200
+2026-01-14 17:41:09 INFO: 项目处理成功: 200
+2026-01-14 17:41:09 INFO: 开始处理项目: abc
+2026-01-14 17:41:10 DEBUG: 正在处理数据: abc
+2026-01-14 17:41:10 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 17:42:49 INFO: 服务已启动 - v1.0.0
+2026-01-14 17:42:50 INFO: 初始化组件成功
+2026-01-14 17:42:50 INFO: 开始处理项目: 100
+2026-01-14 17:42:51 DEBUG: 正在处理数据: 100
+2026-01-14 17:42:51 INFO: 项目处理成功: 100
+2026-01-14 17:42:51 INFO: 开始处理项目: 200
+2026-01-14 17:42:52 DEBUG: 正在处理数据: 200
+2026-01-14 17:42:52 INFO: 项目处理成功: 200
+2026-01-14 17:42:52 INFO: 开始处理项目: abc
+2026-01-14 17:42:53 DEBUG: 正在处理数据: abc
+2026-01-14 17:42:53 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 18:00:32 INFO: 服务已启动 - v1.0.0
+2026-01-14 18:00:33 INFO: 初始化组件成功
+2026-01-14 18:00:33 INFO: 开始处理项目: 100
+2026-01-14 18:00:34 DEBUG: 正在处理数据: 100
+2026-01-14 18:00:34 INFO: 项目处理成功: 100
+2026-01-14 18:00:34 INFO: 开始处理项目: 200
+2026-01-14 18:00:35 DEBUG: 正在处理数据: 200
+2026-01-14 18:00:35 INFO: 项目处理成功: 200
+2026-01-14 18:00:35 INFO: 开始处理项目: abc
+2026-01-14 18:00:36 DEBUG: 正在处理数据: abc
+2026-01-14 18:00:36 ERROR: 处理过程中发生严重错误
+Traceback (most recent call last):
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 31, in main
+    result = process_data(item)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asta1\PycharmProjects\ai-ops-example\app.py", line 16, in process_data
+    return int(data)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abc'
+2026-01-14 18:02:05 ERROR: healthcheck failed but no exception
