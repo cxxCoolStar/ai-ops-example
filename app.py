@@ -53,7 +53,10 @@ def build_logger(log_path, service_name, environment, level="INFO"):
 
 
 def parse_int(value):
-    return int(value)
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return 0
 
 
 def divide(a, b):
