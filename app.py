@@ -53,7 +53,19 @@ def build_logger(log_path, service_name, environment, level="INFO"):
 
 
 def parse_int(value):
-    return int(value)
+    if value is None:
+        raise ValueError("Cannot parse None as int")
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str):
+        value = value.strip()
+        if value == "":
+            raise ValueError("Cannot parse empty string as int")
+        try:
+            return int(value)
+        except ValueError:
+            raise ValueError(f"Cannot parse '{value}' as int")
+    raise ValueError(f"Cannot parse {type(value).__name__} as int")
 
 
 def divide(a, b):
